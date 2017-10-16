@@ -1,0 +1,129 @@
+    1  ls
+    2  cd /bin/
+    3  ls
+    4  ls -l
+    5  ls -lt
+    6  ls -lt|head
+    7  cd .
+    8  cd ..
+    9  man sleep
+   10  cd
+   11  ls
+   12  cd..
+   13  cd ..
+   14  ls
+   15  mkdir problemsets
+   16  cd
+   17  mkdir problemsets
+   18  ls
+   19  cd problemsets
+   20  ls
+   21  pwd
+   22  wget sequences.nt.fa
+   23  wget sequences.nt.fa
+   24  curl -O sequences.nt.fa
+   25  ls
+   26  curl -O https://github.com/srobb1/pfb2017/blob/master/files/sequences.nt.fa
+   27  head sequences.nt.fa 
+   28  cd
+   29  ls
+   30  cd problemsets
+   31  cp ~/Desktop/files/sequences.nt.fa 
+   32  ls
+   33  cp ~/Desktop/files/sequences.nt.fa .
+   34  ls
+   35  ls sequences.nt.fa 
+   36  wc -1 sequences.nt.fa 
+   37  curl -O http://programmingforbiology.org/problem_sets/files/sequences.nt.fa
+   38  ls
+   39  ls sequences.nt.fa 
+   40  wc -l sequences.nt.fa 
+   41  head sequences.nt.fa 
+   42  man mv
+   43  ls
+   44  mv sequences.nt.fa cancer_genes.fasta
+   45  ls
+   46  curl -O http://programmingforbiology.org/problem_sets/files/cuffdiff.txt
+   47  ls
+   48  head cuffdiff.txt 
+   49  man sort
+   50  man sort
+   51  sort -k 10 cuffdiff.txt 
+   52* head cuffdiff.txt 
+   53  mv cuffdiff.txt cuffdiffsort.txt
+   54  ls
+   55  curl -O http://programmingforbiology.org/problem_sets/files/cuffdiff.txt
+   56  ls
+   57  mv cuffdiff.txt cuffdiffsortsort.txt
+   58  ls
+   59  head cuffdiffsort.txt
+   60  man sort
+   61  sort -k 10 -g  cuffdiffsort.txt 
+   62  ls
+   63  head cuffdiffsort.txt
+   64  sort -k 10,10 -g  cuffdiffsort.txt 
+   65  head cuffdiffsort.txt
+   66  head cuffdiffsort.txt|cut -f 10
+   67  sort -k 10,10n  cuffdiffsort.txt 
+   68  head cuffdiffsort.txt|cut -f 10
+   69  head cuffdiffsort.txt|cut -f 1
+   70  sort -k10 -r  cuffdiffsort.txt 
+   71  head cuffdiffsort.txt|cut -f 10
+   72  ls
+   73  sort -k 10 -r  cuffdiffsort.txt 
+   74  head cuffdiffsort.txt|cut -f 10
+   75  head cuffdiffsort.txt|cut -f 9
+   76  sort -k10 -r cuffdiffsort.txt
+   77  head cuffdiffsort.txt|cut -f 10
+   78  sort -k10 -r cuffdiffsort.txt|cut -f 10 > sorting.txt
+   79  head sorting.txt 
+   80  sort -k10 -r cuffdiffsort.txt|cut -f 1|head -n 100 > sorted100.txt
+   81  less sorted100.txt 
+   82  less sorted100.txt 
+   83  less sorted100.txt 
+   84  sort -k10 -r cuffdiffsort.txt|cut -f 1|head -n 100 > sorted100.txt
+   85  ls
+   86  head sorted100.txt 
+   87  l
+   88  ls
+   89  mkdir files
+   90  ls
+   91  mv cancer_genes.fasta files
+   92  ls
+   93  echo "# PFB2017" >> README.md
+   94  git init
+   95  git add README.md
+   96  git commit -m "first commit"
+   97  git remote add origin https://github.com/mlavarias/PFB2017.git
+   98  git push -u origin master
+   99  git add files/cancer_genes.fasta 
+  100  git commit -m "adding cancer_genes.fasta"
+  101  git push
+  102  nano mysequences.txt
+  103  ls
+  104  git add mysequences.txt 
+  105  git commit -m "adding mysequences.txt"
+  106  git push
+  107  mkdir fastas
+  108  ls
+  109  cd files
+  110  ls
+  111  cp cancer_genes.fasta ~/problemsets/fastas
+  112  ls
+  113  cd .
+  114  ls
+  115  cd ..
+  116  ls
+  117  cd fastas
+  118  ls
+  119  cd ..
+  120  ls
+  121  cd files
+  122  rm cancer_genes.fasta 
+  123  ls
+  124  cd ..
+  125  ls
+  126  cd fastas
+  127  ls
+  128  history
+  129  history > unixBasics.history.txt
