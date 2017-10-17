@@ -1,0 +1,5 @@
+dna = "GTACCTTGATTTCGTATTCTGAGAGGCTGCTGCTTAGCGGTAGCCCCTTGGTTTCCGTGGCAACGGAAAA"
+if "ATG" in dna:
+	print ("found ATG")
+if "TTT" in dna:
+	print ("found TTT")
