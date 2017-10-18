@@ -3,13 +3,18 @@ print(dna.count('A')+dna.count("T"))
 print(dna.count('G')+dna.count("C"))
 print(dna)
 comp = (dna.replace('A','t').replace('T','a').replace('G','c').replace('C','g'))
-print (comp.upper())
+compu = (comp.upper())
+print(compu)
 rcomp = comp[::-1]
 print(rcomp.upper())
 print(dna.find('GAATTC'))
 res1 = dna[0:396]
 print(res1, "1-397")
+
 res2 = dna[396:]
 print (res2, "398-842")
+
 print(dna.count('GAATTC')) # to find all restriction sites
 
+string = 'This fragment {} starts at base {} and is {} nucleotides long. The 2nd fragment {} starts at base {} and is {} nucleotides long'
+print(string.format(res1,'0', '397',res2,'398','444'))
